@@ -22,8 +22,7 @@ The work encompasses data exploration, cleaning, and analysis to build a statist
 ## ▶ Opening the Notebook in Google Colab
 
 Click the button below:
-
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesc1710/Telecom-Analysis/blob/main/S7Project_ConnectaTel.ipynb)
 Or:
 
 1. Open the `.ipynb` file on GitHub
@@ -31,6 +30,6 @@ Or:
 
 ## 📘 Reproducing the Analysis
 
-1. Open `notebooks/everpeak_analysis.ipynb`
+1. Open `S7Project-ConnectaTel.ipynb`
 2. Run the cells in order
 3. The notebook automatically loads the dataset from `/data/` or from a public link, as applicable
