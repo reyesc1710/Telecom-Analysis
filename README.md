@@ -14,6 +14,29 @@ The analysis draws on three datasets:
 
 The work encompasses data exploration, cleaning, and analysis to build a statistical customer profile, identify outlier behavior, and develop customer segments. These insights support the identification of consumption patterns, the design of retention strategies, and recommendations for plan optimization.
 
+## Analysis Stages
+
+**1. Data Loading & Exploration**
+Loaded and explored the `plans`, `users_latam`, and `usage` datasets to understand their structure and column types. → *Provided a clear baseline of each dataset before analysis.*
+
+**2. Data Quality Assessment**
+Counted null values, detected sentinel placeholders, and reviewed out-of-range dates. → *Produced a prioritized list of data issues that could bias business decisions.*
+
+**3. Data Cleaning**
+Replaced sentinel values, converted date formats, and imputed or flagged missing values according to defined rules. → *Delivered a consistent, analysis-ready dataset.*
+
+**4. Summary Statistics**
+Reviewed key measures across categorical and numerical variables. → *Surfaced core metrics (mean, median, percentiles) reflecting typical and extreme customer behavior.*
+
+**5. Visualization & Outlier Detection**
+Built histograms and boxplots to inspect distributions. → *Revealed skew, usage patterns, and atypical data points.*
+
+**6. Segmentation**
+Created rule-based customer segments and visualized proportions with countplots. → *Generated actionable segments to guide offers, campaigns, and plan migrations.*
+
+**7. Executive Insights**
+Drafted conclusions and business recommendations based on the previous steps. → *Answered key business questions and proposed concrete next steps.*
+
 ## 📂 Repository Contents
 
 - `S7Project-ConnectaTel.ipynb`
